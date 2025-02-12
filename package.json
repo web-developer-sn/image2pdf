@@ -2,11 +2,14 @@
   "name": "image_to_pdf",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/web-developer-sn/.github.io/image2pdf",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "html2canvas": "^1.4.1",
