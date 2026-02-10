@@ -5,8 +5,7 @@ const nextConfig = {
     unoptimized: true, // Disable default image optimization
   },
   assetPrefix: isProd ? '/image2pdf/' : '',
-  basePath: isProd ? '/image2pdf' : '',
-  output: 'export'
+  basePath: isProd ? '/image2pdf' : ''
 };
 
 export default nextConfig;
